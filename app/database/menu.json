@@ -1,0 +1,80 @@
+{
+
+            "VEG": {
+                "BREAKFAST": {
+                    "Aloo Paratha": "60",
+                    "Paneer Paratha": "80",
+                    "Veg Sandwich": "50",
+                    "Poha": "40",
+                    "Upma": "40",
+                    "Masala Dosa": "70"
+                },
+
+                "LUNCH": {
+                    "Dal Tadka": "120",
+                    "Shahi Paneer": "180",
+                    "Mix Veg": "150",
+                    "Palak Paneer": "170",
+                    "Rajma Chawal": "130",
+                    "Chole Bhature": "120",
+                    "Veg Biryani": "160"
+                },
+
+                "DINNER": {
+                    "Paneer Butter Masala": "200",
+                    "Malai Kofta": "190",
+                    "Kadai Paneer": "180",
+                    "Veg Kofta": "170",
+                    "Dal Makhani": "160",
+                    "Veg Pulao": "140"
+                },
+
+                "DESSERTS": {
+                    "Gulab Jamun": "60",
+                    "Rasgulla": "60",
+                    "Ice Cream": "80",
+                    "Gajar Ka Halwa": "90",
+                    "Kheer": "70",
+                    "Rasmalai": "90"
+                }
+            },
+
+            "NON-VEG": {
+                "BREAKFAST": {
+                    "Egg Omelette": "50",
+                    "Boiled Eggs": "40",
+                    "Chicken Sandwich": "90",
+                    "Egg Paratha": "70",
+                    "Chicken Sausage": "120",
+                    "Egg Bhurji": "60"
+                },
+
+                "LUNCH": {
+                    "Chicken Curry": "220",
+                    "Butter Chicken": "260",
+                    "Chicken Biryani": "240",
+                    "Mutton Curry": "300",
+                    "Fish Curry": "250",
+                    "Egg Curry": "160",
+                    "Chicken Korma": "270"
+                },
+
+                "DINNER": {
+                    "Tandoori Chicken": "280",
+                    "Chicken Tikka": "260",
+                    "Mutton Biryani": "320",
+                    "Fish Fry": "240",
+                    "Chicken Handi": "250",
+                    "Chicken Kebab": "230"
+                },
+
+                "DESSERTS": {
+                    "Chocolate Ice Cream": "90",
+                    "Brownie": "110",
+                    "Chocolate Cake": "120",
+                    "Vanilla Ice Cream": "80",
+                    "Fruit Custard": "90",
+                    "Pudding": "100"
+                }
+            }
+        }
