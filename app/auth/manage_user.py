@@ -8,24 +8,26 @@ RESET = "\033[0m"
 class Manage():
     def rms_management(self):
         while True:
-            print(YELLOW+"   THE AROMA ROOFTOP RESTAURANT "+RESET)
+            print(YELLOW+"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"+RESET)
+            print(YELLOW+"    THE AROMA ROOFTOP RESTAURANT   "+RESET)
             print(YELLOW+"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n"+RESET)
             print(SKY_BLUE+"REGISTRATION"+RESET)
             print(SKY_BLUE+"1.SIGNUP"+RESET)
             print(SKY_BLUE+"2.LOGIN"+RESET)
             print(SKY_BLUE+"3.EXIT"+RESET)
-        
-            choice = int(input("PLEASE ENTER CHOICE: "))  
+               
+            print("")
+            choice = input("PLEASE ENTER CHOICE: ")                        
 
-            if choice == 1:
+            if choice == "1":
                 ob = UserSignup()
                 ob.dashboard()
-            elif choice == 2:
+            elif choice == "2":
                 ob=Login()
                 ob.identify_user()
-            elif choice == 3:
-                print("Exiting...")
+            elif choice == "3":
+                print("EXITING..")
                 break
             else:
-                print("Invalid CHOICE!")
+                print("INVALID CHOICE!")
 

@@ -1,4 +1,5 @@
 from app.domain.read_write_json import json_methods
+from app.dashboard.menu import ChoiceAdmin , ChoiceStaff
 
 class Login:
     def __init__(self):
@@ -13,11 +14,13 @@ class Login:
                 user_found=True
                 if user['role']=="staff":
                     print("WELCOME BACK STAFF MEMBER",user["username"])
-                    
+                    ob1=ChoiceStaff()
+                    ob1.show_menu_staff()
                   
                 elif user['role']=="admin":
                     print("WELCOME BACK",user["username"])
-                   
+                    ob2=ChoiceAdmin()
+                    ob2.show_menu_admin()
                    
         if not user_found:
             print("User not found")
