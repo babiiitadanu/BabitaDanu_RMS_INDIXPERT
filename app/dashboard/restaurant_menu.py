@@ -5,7 +5,7 @@ RED = "\033[91m"
 YELLOW = "\033[93m"
 RESET = "\033[0m"
 
-path= r"D:\BabitaDanu_RMS_INDIXPERT\app\database\menu.json"
+path= r"app\database\menu.json"
 class RestaurantMenu:
 
     def __init__(self):
@@ -46,18 +46,3 @@ class RestaurantMenu:
 
         else:
             print("Invalid Category or Meal")
-
-
-ob = RestaurantMenu()
-
-print(RED + "\nCURRENT MENU" + RESET)
-ob.show_menu()
-
-print(RED + "\nUPDATE MENU" + RESET)
-ob.update_menu()
-
-print(RED+ "\nUPDATED MENU" + RESET)
-ob.show_menu()
-
-
-

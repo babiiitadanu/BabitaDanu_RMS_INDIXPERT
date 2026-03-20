@@ -1,4 +1,4 @@
-
+from app.dashboard.restaurant_menu import RestaurantMenu
 
 YELLOW = "\033[93m"
 SKY_BLUE = "\033[38;5;117m"
@@ -8,26 +8,28 @@ class ChoiceAdmin:
     def show_menu_admin(self):
 
         while True:
-           
+            print("")
             print(SKY_BLUE+"ADMIN MENU"+RESET)
-            print("1.VIEW FOOD MENU ")
-            print("2.UPDATE FOOD ITEM ")
-            print("3.DELETE FOOD ITEM")
-            print("4.DELETE STAFF")
-            print("5.EXIT")
+            print(SKY_BLUE+"1."+RESET ,"VIEW FOOD MENU ")
+            print(SKY_BLUE+"2."+RESET ,"UPDATE FOOD ITEM ")
+            print(SKY_BLUE+"3."+RESET ,"DELETE FOOD ITEM")
+            print(SKY_BLUE+"4."+RESET ,"DELETE STAFF")
+            print(SKY_BLUE+"5."+RESET ,"EXIT")
 
             choice = input(YELLOW+"ENTER YOUR CHOICE :"+RESET)
 
             if choice == "1":
-               pass
+             object=RestaurantMenu()
+             object.show_menu()
+             
             elif choice == "2":
-              pass
-
+             print("Done")
+            
             elif choice == "3":
-               pass
+               print("Done")
 
             elif choice == "4":
-                pass
+                print("Done")
 
             elif choice == "5":
               break
@@ -37,32 +39,35 @@ class ChoiceAdmin:
 
 
  
-class ChoiceAdmin:
+class ChoiceStaff:
     def show_menu_staff(self):
 
         while True:
-            
+            print("")
             print(SKY_BLUE+"STAFF MENU"+RESET)
-            print("1.VIEW FOOD MENU ")
-            print("2.TAKE ORDER")
-            print("3.TABLE BOOKING" )
-            print("4.GENERATE BILL ")
-            print("5.EXIT")
+            print(SKY_BLUE+"1."+RESET ,"VIEW FOOD MENU ")
+            print(SKY_BLUE+"2."+RESET ,"TAKE ORDER")
+            print(SKY_BLUE+"3."+RESET ,"TABLE BOOKING" )
+            print(SKY_BLUE+"4."+RESET ,"GENERATE BILL ")
+            print(SKY_BLUE+"5."+RESET ,"EXIT")
 
             choice = input(YELLOW+"ENTER YOUR CHOICE:"+RESET)
 
             if choice =="1":
-                pass
-
+             print("Done")
+             
             elif choice == "2":
-                pass
+             print("Done")
 
             elif choice == "3":
-                pass
-
+             print("Done")
+             
             elif choice == "4":
-                pass
+             print("Done")
 
+            elif choice == "5":
+             break
+             
             else:
                 print("INVALID CHOICE! ")
                 

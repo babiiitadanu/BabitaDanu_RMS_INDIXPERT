@@ -33,5 +33,19 @@
         "password": "1234bd",
         "role": "staff",
         "email_id": "babitadanu11@gmail.com"
+    },
+    {
+        "id": "ffd22",
+        "username": "tanu",
+        "password": "tanu1234",
+        "role": "admin",
+        "email_id": "tanu@gmail.com"
+    },
+    {
+        "id": "e8520",
+        "username": "babbiii",
+        "password": "bd1105",
+        "role": "admin",
+        "email_id": "babbiii@gmail.com"
     }
 ]
