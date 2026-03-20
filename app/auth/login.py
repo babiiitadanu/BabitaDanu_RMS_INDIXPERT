@@ -1,5 +1,6 @@
 from app.domain.read_write_json import json_methods
 from app.dashboard.menu import ChoiceAdmin , ChoiceStaff
+import getpass
 
 class Login:
     def __init__(self):
@@ -7,8 +8,9 @@ class Login:
         self.user_data=json_operations.read_json(r"app\database\manage.json")
     def identify_user(self):
         email = input("Enter your email id: ")
-        password = input("Enter your passowrd: ")
+        password = getpass.getpass("Enter your passowrd: ")
         user_found= False
+        
         for user in self.user_data:
             if user['email_id']==email and user['password']==password:
                 user_found=True
@@ -25,4 +27,4 @@ class Login:
         if not user_found:
             print("User not found")
             
-                           
+                    
