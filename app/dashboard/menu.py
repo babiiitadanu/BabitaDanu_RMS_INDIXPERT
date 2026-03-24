@@ -1,4 +1,8 @@
 from app.dashboard.restaurant_menu import RestaurantMenu
+from app.order.orderrestaurant import FoodOrder
+from app.dashboard.dlt_staff import StaffManager
+from app.booking.table_book import TableBookingSystem
+from app.bill.billing import RestaurantBill
 
 YELLOW = "\033[93m"
 SKY_BLUE = "\033[38;5;117m"
@@ -23,14 +27,17 @@ class ChoiceAdmin:
              object.show_menu()
              
             elif choice == "2":
-             print("Done")
+             object1=RestaurantMenu()
+             object1.update_menu()
             
             elif choice == "3":
-               print("Done")
-
+             object2=RestaurantMenu()
+             object2.delete_item()
+         
             elif choice == "4":
-                print("Done")
-
+             object3 = StaffManager()
+             object3.remove_users()
+               
             elif choice == "5":
               break
           
@@ -54,16 +61,20 @@ class ChoiceStaff:
             choice = input(YELLOW+"ENTER YOUR CHOICE:"+RESET)
 
             if choice =="1":
-             print("Done")
+             object=RestaurantMenu()
+             object.show_menu()
              
             elif choice == "2":
-             print("Done")
+             object1 = FoodOrder()
+             object1.order_food()
 
             elif choice == "3":
-             print("Done")
-             
+             object2 = TableBookingSystem()
+             object2.run()
+
             elif choice == "4":
-             print("Done")
+             object2 =RestaurantBill()
+             object2.main()
 
             elif choice == "5":
              break

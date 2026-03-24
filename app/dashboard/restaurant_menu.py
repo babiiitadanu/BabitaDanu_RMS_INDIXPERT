@@ -34,15 +34,39 @@ class RestaurantMenu:
         category = input("Enter Category (VEG/NON-VEG): ").upper()
         meal = input("Enter Meal (BREAKFAST/LUNCH/DINNER/DESSERTS): ").upper()
         item = input("Enter Item Name: ")
-        price = int(input("Enter New Price: "))
+        price = (input("Enter New Price: "))
 
         if category in self.menu and meal in self.menu[category]:
 
             self.menu[category][meal][item] = price
             print("Menu Updated Successfully" )
 
-            with open("menu.json", "w") as file:
+            with open(path, "w") as file:
                 json.dump(self.menu, file, indent=4)
 
         else:
             print("Invalid Category or Meal")
+            
+    def delete_item(self):
+        category = input("Enter Category (VEG/NON-VEG): ").upper()
+        meal = input("Enter Meal (BREAKFAST/LUNCH/DINNER/DESSERTS): ").upper()
+        item = input("Enter Item Name to delete: ")
+
+        if category in self.menu:
+            if meal in self.menu[category]:
+                 if item in self.menu[category][meal]:
+
+                    self.menu[category][meal].pop(item)
+                    print("Item removed successfully")
+
+                    with open(path, "w") as file:
+                        json.dump(self.menu, file, indent=4)
+
+                 else:
+                     print("Item not found!")
+                     
+            else:
+                print("Meal not found!")
+                
+        else:
+            print("Category not found!")
