@@ -20,7 +20,7 @@ class Login:
                     ob1.show_menu_staff()
                   
                 elif user['role']=="admin":
-                    print("WELCOME BACK",user["username"])
+                    print("WELCOME BACK ",user["username"],"mam/sir.")
                     ob2=ChoiceAdmin()
                     ob2.show_menu_admin()
                    

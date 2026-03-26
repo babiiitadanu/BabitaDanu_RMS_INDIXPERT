@@ -4,6 +4,7 @@ from app.dashboard.dlt_staff import StaffManager
 from app.booking.table_book import TableBookingSystem
 from app.bill.billing import RestaurantBill
 
+
 YELLOW = "\033[93m"
 SKY_BLUE = "\033[38;5;117m"
 RESET = "\033[0m"
@@ -12,8 +13,8 @@ class ChoiceAdmin:
     def show_menu_admin(self):
 
         while True:
-            print("")
-            print(SKY_BLUE+"ADMIN MENU"+RESET)
+            
+            print(SKY_BLUE+"\n<> ADMIN MENU <>"+RESET)
             print(SKY_BLUE+"1."+RESET ,"VIEW FOOD MENU ")
             print(SKY_BLUE+"2."+RESET ,"UPDATE FOOD ITEM ")
             print(SKY_BLUE+"3."+RESET ,"DELETE FOOD ITEM")
@@ -50,8 +51,8 @@ class ChoiceStaff:
     def show_menu_staff(self):
 
         while True:
-            print("")
-            print(SKY_BLUE+"STAFF MENU"+RESET)
+           
+            print(SKY_BLUE+"\n<> STAFF MENU <>"+RESET)
             print(SKY_BLUE+"1."+RESET ,"VIEW FOOD MENU ")
             print(SKY_BLUE+"2."+RESET ,"TAKE ORDER")
             print(SKY_BLUE+"3."+RESET ,"TABLE BOOKING" )
@@ -65,8 +66,8 @@ class ChoiceStaff:
              object.show_menu()
              
             elif choice == "2":
-             object1 = FoodOrder()
-             object1.order_food()
+             object1= FoodOrder()
+             object1.run()
 
             elif choice == "3":
              object2 = TableBookingSystem()
@@ -74,7 +75,7 @@ class ChoiceStaff:
 
             elif choice == "4":
              object2 =RestaurantBill()
-             object2.main()
+             object2.generate_bill()
 
             elif choice == "5":
              break

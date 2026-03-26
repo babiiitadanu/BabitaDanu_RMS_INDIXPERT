@@ -22,13 +22,15 @@ class RestaurantMenu:
 
         for category in self.menu:
             print(YELLOW + f"\n~~~ {category} MENU ~~~" + RESET)
+            print(YELLOW + f"~~~~~~~~~~~~~~~~~~~~~" + RESET)
+            
 
             for meal in self.menu[category]:
                 print(GREEN + f"\n{meal}" + RESET)
 
                 for item, price in self.menu[category][meal].items():
-                    print(f"* {item} : ₹{price}")
-
+                   print(f"{YELLOW}*{RESET} {item} : {price} ₹")
+                   
     def update_menu(self):
 
         category = input("Enter Category (VEG/NON-VEG): ").upper()
