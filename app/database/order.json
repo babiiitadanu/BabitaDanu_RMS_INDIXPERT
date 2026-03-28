@@ -1,0 +1,12 @@
+[
+  {
+    "Aloo Paratha": {
+      "price": 60,
+      "qty": 5
+    },
+    "Egg Paratha": {
+      "price": 70,
+      "qty": 5
+    }
+  }
+]
