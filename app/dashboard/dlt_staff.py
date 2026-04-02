@@ -10,7 +10,7 @@ class StaffManager:
     def remove_users(self):
         data = self.load_data()
 
-        names_to_remove = input("Enter usernames to remove : ")
+        names_to_remove = input("Enter Staff usernames to remove : ")
 
         filtered_data = []
 
@@ -20,5 +20,5 @@ class StaffManager:
 
         self.jm.write_json(self.input_path, filtered_data)
 
-        print("Selected staff users removed!")
+        print("Please try again! only staff users removed!")
 

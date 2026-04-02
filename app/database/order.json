@@ -1,12 +1,26 @@
 [
   {
-    "Aloo Paratha": {
-      "price": 60,
-      "qty": 5
-    },
-    "Egg Paratha": {
-      "price": 70,
-      "qty": 5
+    "babita": {
+      "Aloo Paratha": {
+        "price": 60,
+        "qty": 5
+      }
+    }
+  },
+  {
+    "babita": {
+      "Aloo Paratha": {
+        "price": 60,
+        "qty": 4
+      }
+    }
+  },
+  {
+    "mukesh": {
+      "Dal Tadka": {
+        "price": 120,
+        "qty": 2
+      }
     }
   }
 ]

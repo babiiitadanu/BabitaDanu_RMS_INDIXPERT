@@ -1,44 +1,12 @@
 [
   {
-    "id": "214f7",
-    "username": "BabitaDanu",
-    "password": "BD1105",
-    "role": "admin",
-    "email_id": "babitadanu@gmail.com"
-  },
-  {
-    "id": "27ec1",
-    "username": "BabitaDanu",
-    "password": "1105babita",
-    "role": "admin",
-    "email_id": "babitadanu11@gmail.com"
-  },
-  {
-    "id": "941fc",
-    "username": "mukesh",
-    "password": "mukesh12",
+    "id": "17673",
+    "username": "rohit",
+    "password": "34567890",
     "role": "staff",
-    "email_id": "mukesh@gmail.com"
-  },
-  {
-    "id": "9a706",
-    "username": "babitadanu",
-    "password": "1234bd",
-    "role": "staff",
-    "email_id": "babitadanu11@gmail.com"
-  },
-  {
-    "id": "ffd22",
-    "username": "tanu",
-    "password": "tanu1234",
-    "role": "staff",
-    "email_id": "tanu@gmail.com"
-  },
-  {
-    "id": "e8520",
-    "username": "babbiii",
-    "password": "bd1105",
-    "role": "admin",
-    "email_id": "babbiii@gmail.com"
+    "email_id": "rohit@gmail.com",
+    "aadhar": "234567812398",
+    "phone": "3456743289",
+    "address": "bageshwar"
   }
-]                                                              
+]

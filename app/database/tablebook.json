@@ -1,31 +1,291 @@
 {
-    "1": [],
-    "2": [],
-    "3": [
-        {
-            "hours": 3,
+    "1": {
+        "10 AM - 12 PM": null,
+        "12 PM - 2 PM": null,
+        "2 PM - 4 PM": null,
+        "4 PM - 6 PM": null,
+        "6 PM - 8 PM": null,
+        "8 PM - 10 PM": null
+    },
+    "2": {
+        "10 AM - 12 PM": {
             "seats": 5
         },
-        {
-            "hours": 5,
+        "12 PM - 2 PM": {
+            "name": "babita danu",
+            "seats": 5
+        },
+        "2 PM - 4 PM": null,
+        "4 PM - 6 PM": null,
+        "6 PM - 8 PM": null,
+        "8 PM - 10 PM": null
+    },
+    "3": {
+        "10 AM - 12 PM": null,
+        "12 PM - 2 PM": null,
+        "2 PM - 4 PM": null,
+        "4 PM - 6 PM": null,
+        "6 PM - 8 PM": null,
+        "8 PM - 10 PM": null
+    },
+    "4": {
+        "10 AM - 12 PM": null,
+        "12 PM - 2 PM": null,
+        "2 PM - 4 PM": null,
+        "4 PM - 6 PM": null,
+        "6 PM - 8 PM": null,
+        "8 PM - 10 PM": null
+    },
+    "5": {
+        "10 AM - 12 PM": null,
+        "12 PM - 2 PM": null,
+        "2 PM - 4 PM": null,
+        "4 PM - 6 PM": null,
+        "6 PM - 8 PM": null,
+        "8 PM - 10 PM": null
+    },
+    "6": {
+        "10 AM - 12 PM": null,
+        "12 PM - 2 PM": null,
+        "2 PM - 4 PM": null,
+        "4 PM - 6 PM": null,
+        "6 PM - 8 PM": null,
+        "8 PM - 10 PM": null
+    },
+    "7": {
+        "10 AM - 12 PM": null,
+        "12 PM - 2 PM": null,
+        "2 PM - 4 PM": null,
+        "4 PM - 6 PM": null,
+        "6 PM - 8 PM": null,
+        "8 PM - 10 PM": null
+    },
+    "8": {
+        "10 AM - 12 PM": null,
+        "12 PM - 2 PM": null,
+        "2 PM - 4 PM": null,
+        "4 PM - 6 PM": null,
+        "6 PM - 8 PM": null,
+        "8 PM - 10 PM": null
+    },
+    "9": {
+        "10 AM - 12 PM": null,
+        "12 PM - 2 PM": null,
+        "2 PM - 4 PM": null,
+        "4 PM - 6 PM": null,
+        "6 PM - 8 PM": null,
+        "8 PM - 10 PM": null
+    },
+    "10": {
+        "10 AM - 12 PM": null,
+        "12 PM - 2 PM": null,
+        "2 PM - 4 PM": null,
+        "4 PM - 6 PM": null,
+        "6 PM - 8 PM": null,
+        "8 PM - 10 PM": null
+    },
+    "11": {
+        "10 AM - 12 PM": null,
+        "12 PM - 2 PM": null,
+        "2 PM - 4 PM": null,
+        "4 PM - 6 PM": null,
+        "6 PM - 8 PM": null,
+        "8 PM - 10 PM": null
+    },
+    "12": {
+        "10 AM - 12 PM": null,
+        "12 PM - 2 PM": null,
+        "2 PM - 4 PM": null,
+        "4 PM - 6 PM": null,
+        "6 PM - 8 PM": null,
+        "8 PM - 10 PM": null
+    },
+    "13": {
+        "10 AM - 12 PM": null,
+        "12 PM - 2 PM": null,
+        "2 PM - 4 PM": null,
+        "4 PM - 6 PM": null,
+        "6 PM - 8 PM": null,
+        "8 PM - 10 PM": null
+    },
+    "14": {
+        "10 AM - 12 PM": null,
+        "12 PM - 2 PM": null,
+        "2 PM - 4 PM": null,
+        "4 PM - 6 PM": null,
+        "6 PM - 8 PM": null,
+        "8 PM - 10 PM": null
+    },
+    "15": {
+        "10 AM - 12 PM": null,
+        "12 PM - 2 PM": null,
+        "2 PM - 4 PM": null,
+        "4 PM - 6 PM": null,
+        "6 PM - 8 PM": null,
+        "8 PM - 10 PM": null
+    },
+    "16": {
+        "10 AM - 12 PM": null,
+        "12 PM - 2 PM": null,
+        "2 PM - 4 PM": null,
+        "4 PM - 6 PM": null,
+        "6 PM - 8 PM": null,
+        "8 PM - 10 PM": null
+    },
+    "17": {
+        "10 AM - 12 PM": null,
+        "12 PM - 2 PM": null,
+        "2 PM - 4 PM": null,
+        "4 PM - 6 PM": null,
+        "6 PM - 8 PM": null,
+        "8 PM - 10 PM": null
+    },
+    "18": {
+        "10 AM - 12 PM": null,
+        "12 PM - 2 PM": null,
+        "2 PM - 4 PM": null,
+        "4 PM - 6 PM": null,
+        "6 PM - 8 PM": null,
+        "8 PM - 10 PM": null
+    },
+    "19": {
+        "10 AM - 12 PM": null,
+        "12 PM - 2 PM": null,
+        "2 PM - 4 PM": null,
+        "4 PM - 6 PM": null,
+        "6 PM - 8 PM": null,
+        "8 PM - 10 PM": null
+    },
+    "20": {
+        "10 AM - 12 PM": null,
+        "12 PM - 2 PM": null,
+        "2 PM - 4 PM": null,
+        "4 PM - 6 PM": null,
+        "6 PM - 8 PM": null,
+        "8 PM - 10 PM": null
+    },
+    "21": {
+        "10 AM - 12 PM": null,
+        "12 PM - 2 PM": null,
+        "2 PM - 4 PM": null,
+        "4 PM - 6 PM": null,
+        "6 PM - 8 PM": null,
+        "8 PM - 10 PM": null
+    },
+    "22": {
+        "10 AM - 12 PM": null,
+        "12 PM - 2 PM": null,
+        "2 PM - 4 PM": null,
+        "4 PM - 6 PM": null,
+        "6 PM - 8 PM": null,
+        "8 PM - 10 PM": null
+    },
+    "23": {
+        "10 AM - 12 PM": null,
+        "12 PM - 2 PM": null,
+        "2 PM - 4 PM": null,
+        "4 PM - 6 PM": null,
+        "6 PM - 8 PM": null,
+        "8 PM - 10 PM": null
+    },
+    "24": {
+        "10 AM - 12 PM": null,
+        "12 PM - 2 PM": null,
+        "2 PM - 4 PM": null,
+        "4 PM - 6 PM": {
             "seats": 3
-        }
-    ],
-    "4": [],
-    "5": [],
-    "6": [],
-    "7": [],
-    "8": [
-        {
-            "hours": 3,
-            "seats": 2
-        }
-    ],
-    "9": [],
-    "10": [],
-    "11": [],
-    "12": [],
-    "13": [],
-    "14": [],
-    "15": []
+        },
+        "6 PM - 8 PM": null,
+        "8 PM - 10 PM": null
+    },
+    "25": {
+        "10 AM - 12 PM": null,
+        "12 PM - 2 PM": null,
+        "2 PM - 4 PM": null,
+        "4 PM - 6 PM": null,
+        "6 PM - 8 PM": null,
+        "8 PM - 10 PM": null
+    },
+    "26": {
+        "10 AM - 12 PM": null,
+        "12 PM - 2 PM": null,
+        "2 PM - 4 PM": null,
+        "4 PM - 6 PM": null,
+        "6 PM - 8 PM": null,
+        "8 PM - 10 PM": null
+    },
+    "27": {
+        "10 AM - 12 PM": null,
+        "12 PM - 2 PM": null,
+        "2 PM - 4 PM": null,
+        "4 PM - 6 PM": null,
+        "6 PM - 8 PM": null,
+        "8 PM - 10 PM": null
+    },
+    "28": {
+        "10 AM - 12 PM": null,
+        "12 PM - 2 PM": null,
+        "2 PM - 4 PM": null,
+        "4 PM - 6 PM": null,
+        "6 PM - 8 PM": null,
+        "8 PM - 10 PM": null
+    },
+    "29": {
+        "10 AM - 12 PM": null,
+        "12 PM - 2 PM": null,
+        "2 PM - 4 PM": null,
+        "4 PM - 6 PM": null,
+        "6 PM - 8 PM": null,
+        "8 PM - 10 PM": null
+    },
+    "30": {
+        "10 AM - 12 PM": null,
+        "12 PM - 2 PM": null,
+        "2 PM - 4 PM": null,
+        "4 PM - 6 PM": null,
+        "6 PM - 8 PM": null,
+        "8 PM - 10 PM": null
+    },
+    "31": {
+        "10 AM - 12 PM": null,
+        "12 PM - 2 PM": null,
+        "2 PM - 4 PM": null,
+        "4 PM - 6 PM": null,
+        "6 PM - 8 PM": null,
+        "8 PM - 10 PM": null
+    },
+    "32": {
+        "10 AM - 12 PM": null,
+        "12 PM - 2 PM": null,
+        "2 PM - 4 PM": null,
+        "4 PM - 6 PM": null,
+        "6 PM - 8 PM": null,
+        "8 PM - 10 PM": null
+    },
+    "33": {
+        "10 AM - 12 PM": null,
+        "12 PM - 2 PM": null,
+        "2 PM - 4 PM": null,
+        "4 PM - 6 PM": null,
+        "6 PM - 8 PM": null,
+        "8 PM - 10 PM": null
+    },
+    "34": {
+        "10 AM - 12 PM": null,
+        "12 PM - 2 PM": null,
+        "2 PM - 4 PM": null,
+        "4 PM - 6 PM": null,
+        "6 PM - 8 PM": null,
+        "8 PM - 10 PM": null
+    },
+    "35": {
+        "10 AM - 12 PM": {
+            "seats": 4
+        },
+        "12 PM - 2 PM": null,
+        "2 PM - 4 PM": null,
+        "4 PM - 6 PM": null,
+        "6 PM - 8 PM": null,
+        "8 PM - 10 PM": null
+    }
 }

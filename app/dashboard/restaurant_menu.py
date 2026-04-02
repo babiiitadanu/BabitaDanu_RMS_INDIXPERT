@@ -29,7 +29,7 @@ class RestaurantMenu:
                 print(GREEN + f"\n{meal}" + RESET)
 
                 for item, price in self.menu[category][meal].items():
-                   print(f"{YELLOW}*{RESET} {item} : {price} ₹")
+                   print(f"{YELLOW}*{RESET} {item} :  ₹{price}")
                    
     def update_menu(self):
 
@@ -41,13 +41,13 @@ class RestaurantMenu:
         if category in self.menu and meal in self.menu[category]:
 
             self.menu[category][meal][item] = price
-            print("Menu Updated Successfully" )
+            print(RED+"Menu Updated Successfully"+RESET )
 
             with open(path, "w") as file:
                 json.dump(self.menu, file, indent=4)
 
         else:
-            print("Invalid Category or Meal")
+            print(RED+"Invalid Category or Meal"+RESET)
             
     def delete_item(self):
         category = input("Enter Category (VEG/NON-VEG): ").upper()

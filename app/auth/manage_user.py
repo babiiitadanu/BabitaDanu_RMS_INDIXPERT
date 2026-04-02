@@ -3,6 +3,7 @@ from app.auth.login import Login
 
 YELLOW = "\033[93m"
 SKY_BLUE = "\033[38;5;117m"
+RED = "\033[91m"
 RESET = "\033[0m"
 
 class Manage():
@@ -16,8 +17,8 @@ class Manage():
             print(SKY_BLUE+"   2.LOGIN"+RESET)
             print(SKY_BLUE+"   3.EXIT"+RESET)
                
-            print("")
-            choice = input("PLEASE ENTER CHOICE: ")                        
+            
+            choice = input("\nPLEASE ENTER CHOICE: ")                        
 
             if choice == "1":
                 ob = UserSignup()
@@ -29,5 +30,5 @@ class Manage():
                 print("EXITING..")
                 break
             else:
-                print("INVALID CHOICE!")
+                print(RED+"INVALID CHOICE!"+RESET)
 
