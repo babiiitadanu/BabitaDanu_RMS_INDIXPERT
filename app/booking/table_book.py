@@ -1,6 +1,4 @@
 from app.domain.read_write_json import json_methods
-from datetime import datetime
-
 
 SKY_BLUE = "\033[38;5;117m"
 RED = "\033[31m"
@@ -20,23 +18,7 @@ TIME_SLOTS = [
 class TableBookingSystem:
     def __init__(self):
         self.file_name = r"app\database\tablebook.json"
-        self.log_file = r"app\database\booking_log.txt"
         self.tables = self.load_data()
-
-    def log_action(self, action, table_no=None, slot=None, seats=None, name=None):
-        """Log all actions to a file with timestamp"""
-        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        entry = f"[{timestamp}] {action}"
-        if table_no:
-            entry += f" | Table: {table_no}"
-        if slot:
-            entry += f" | Slot: {slot}"
-        if seats:
-            entry += f" | Seats: {seats}"
-        if name:
-            entry += f" | Name: {name}"
-        with open(self.log_file, "a") as f:
-            f.write(entry + "\n")
 
     def load_data(self):
         try:
@@ -95,8 +77,8 @@ class TableBookingSystem:
                 return
 
             name = input("Enter your name: ")
-
             seats = int(input("Enter number of seats (max 6): "))
+
             if seats > 6:
                 print(RED + "Maximum 6 seats allowed!" + RESET)
                 return
@@ -106,7 +88,6 @@ class TableBookingSystem:
             self.save_data()
 
             print(GREEN + f"Table {table_no} booked for {slot} for {seats} people under name {name}." + RESET)
-            self.log_action("BOOKED", table_no, slot, seats, name)
 
         except ValueError:
             print(RED + "Invalid input." + RESET)
@@ -145,12 +126,10 @@ class TableBookingSystem:
             print(RED + "Name does not match booking! Cannot cancel." + RESET)
             return
 
-        seats = self.tables[table_no][slot]["seats"]
         self.tables[table_no][slot] = None
         self.save_data()
 
         print(RED + f"Booking cancelled for Table {table_no}, Slot {slot}" + RESET)
-        self.log_action("CANCELLED", table_no, slot, seats, name)
 
     def run(self):
         while True:
@@ -168,5 +147,3 @@ class TableBookingSystem:
                 break
             else:
                 print(RED + "Invalid choice, try again." + RESET)
-
-
