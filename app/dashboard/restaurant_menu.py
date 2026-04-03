@@ -21,20 +21,24 @@ class RestaurantMenu:
     def show_menu(self):
 
         for category in self.menu:
-            print(YELLOW + f"\n~~~ {category} MENU ~~~" + RESET)
+            print(YELLOW + f"\n    {category} MENU" + RESET)
             print(YELLOW + f"~~~~~~~~~~~~~~~~~~~~~" + RESET)
             
 
             for meal in self.menu[category]:
+              
                 print(GREEN + f"\n{meal}" + RESET)
-
+               
+                
                 for item, price in self.menu[category][meal].items():
-                   print(f"{YELLOW}*{RESET} {item} :  ₹{price}")
-                   
+                 
+                   print(f"{YELLOW}*{RESET} {item} : ₹{price}")
+                    
+                
     def update_menu(self):
 
         category = input("Enter Category (VEG/NON-VEG): ").upper()
-        meal = input("Enter Meal (BREAKFAST/LUNCH/DINNER/DESSERTS): ").upper()
+        meal = input("Enter Meal (BREAKFAST/LUNCH/DINNER/DESSERTS/BEVERAGES): ").upper()
         item = input("Enter Item Name: ")
         price = (input("Enter New Price: "))
 
@@ -51,7 +55,7 @@ class RestaurantMenu:
             
     def delete_item(self):
         category = input("Enter Category (VEG/NON-VEG): ").upper()
-        meal = input("Enter Meal (BREAKFAST/LUNCH/DINNER/DESSERTS): ").upper()
+        meal = input("Enter Meal (BREAKFAST/LUNCH/DINNER/DESSERTS/BEVERAGES): ").upper()
         item = input("Enter Item Name to delete: ")
 
         if category in self.menu:

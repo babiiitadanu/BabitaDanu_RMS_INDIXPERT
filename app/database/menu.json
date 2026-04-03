@@ -6,7 +6,11 @@
             "Veg Sandwich": "50",
             "Poha": "40",
             "Upma": "40",
-            "Masala Dosa": "70"
+            "Masala Dosa": "70",
+            "Plain Dosa": "50",
+            "Idli Sambhar": "60",
+            "Cheese Sandwich": "70",
+            "Stuffed Kulcha": "90"
         },
         "LUNCH": {
             "Dal Tadka": "120",
@@ -15,14 +19,21 @@
             "Palak Paneer": "170",
             "Rajma Chawal": "130",
             "Chole Bhature": "120",
-            "Veg Biryani": "160"
+            "Veg Biryani": "160",
+            "Kadhi Chawal": "110",
+            "Jeera Rice": "100",
+            "Paneer Lababdar": "190"
         },
         "DINNER": {
             "Paneer Butter Masala": "200",
             "Malai Kofta": "190",
             "Veg Kofta": "170",
             "Dal Makhani": "160",
-            "Veg Pulao": "140"
+            "Veg Pulao": "140",
+            "Kaju Curry": "220",
+            "Mushroom Masala": "180",
+            "Tandoori Roti": "20",
+            "Butter Naan": "40"
         },
         "DESSERTS": {
             "Gulab Jamun": "60",
@@ -30,9 +41,19 @@
             "Ice Cream": "80",
             "Gajar Ka Halwa": "90",
             "Kheer": "70",
-            "Rasmalai": "90"
+            "Rasmalai": "90",
+            "Kulfi": "80",
+            "Falooda": "120"
+        },
+        "BEVERAGES": {
+            "Masala Chai": "20",
+            "Cold Coffee": "90",
+            "Lassi": "60",
+            "Buttermilk": "40",
+            "Fresh Lime Soda": "50"
         }
     },
+
     "NON-VEG": {
         "BREAKFAST": {
             "Egg Omelette": "50",
@@ -40,7 +61,9 @@
             "Chicken Sandwich": "90",
             "Egg Paratha": "70",
             "Chicken Sausage": "120",
-            "Egg Bhurji": "60"
+            "Egg Bhurji": "60",
+            "Chicken Omelette": "90",
+            "Egg Roll": "80"
         },
         "LUNCH": {
             "Chicken Curry": "220",
@@ -49,7 +72,9 @@
             "Mutton Curry": "300",
             "Fish Curry": "250",
             "Egg Curry": "160",
-            "Chicken Korma": "270"
+            "Chicken Korma": "270",
+            "Chicken Do Pyaza": "250",
+            "Mutton Biryani": "320"
         },
         "DINNER": {
             "Tandoori Chicken": "280",
@@ -57,7 +82,9 @@
             "Mutton Biryani": "320",
             "Fish Fry": "240",
             "Chicken Handi": "250",
-            "Chicken Kebab": "230"
+            "Chicken Kebab": "230",
+            "Chicken Lollipop": "220",
+            "Grilled Chicken": "270"
         },
         "DESSERTS": {
             "Chocolate Ice Cream": "90",
@@ -65,7 +92,14 @@
             "Chocolate Cake": "120",
             "Vanilla Ice Cream": "80",
             "Fruit Custard": "90",
-            "Pudding": "100"
+            "Pudding": "100",
+            "Ice Cream Sundae": "140"
+        },
+        "BEVERAGES": {
+            "Cold Drink": "50",
+            "Energy Drink": "120",
+            "Cold Coffee": "100",
+            "Lemon Soda": "60"
         }
     }
 }

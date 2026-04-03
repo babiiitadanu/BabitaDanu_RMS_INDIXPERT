@@ -5,7 +5,7 @@ from app.booking.table_book import TableBookingSystem
 from app.bill.billing import RestaurantBill
 
 
-YELLOW = "\033[93m"
+RED = "\033[91m"
 SKY_BLUE = "\033[38;5;117m"
 RESET = "\033[0m"
 
@@ -21,7 +21,7 @@ class ChoiceAdmin:
             print(SKY_BLUE+"4."+RESET ,"DELETE STAFF")
             print(SKY_BLUE+"5."+RESET ,"EXIT")
 
-            choice = input(YELLOW+"ENTER YOUR CHOICE :"+RESET)
+            choice = input("ENTER YOUR CHOICE :")
 
             if choice == "1":
              object=RestaurantMenu()
@@ -43,7 +43,7 @@ class ChoiceAdmin:
               break
           
             else:
-                print("INVALID CHOICE!")
+                print(RED+"INVALID CHOICE!"+RESET)
 
 
  
@@ -59,7 +59,7 @@ class ChoiceStaff:
             print(SKY_BLUE+"4."+RESET ,"GENERATE BILL ")
             print(SKY_BLUE+"5."+RESET ,"EXIT")
 
-            choice = input(YELLOW+"ENTER YOUR CHOICE:"+RESET)
+            choice = input("ENTER YOUR CHOICE:")
 
             if choice =="1":
              object=RestaurantMenu()
@@ -81,5 +81,5 @@ class ChoiceStaff:
              break
              
             else:
-                print("INVALID CHOICE! ")
+                print(RED+"INVALID CHOICE! "+RESET)
                 
